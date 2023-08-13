@@ -15,7 +15,7 @@
                             {
                                 "code": "DeploymentFailed",
                                 "target": "/subscriptions/56815821-7deb-4dce-8c2a-374756037a1e/resourceGroups/rg-shared-mrapimGW-dev-westus2-001/providers/Microsoft.Resources/deployments/sharedresources",
-                                "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https: //aka.ms/arm-deployment-operations for usage details.",
+                                "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.",
                                 "details": [
                                     {
                                         "code": "ConflictError",
@@ -25,8 +25,6 @@
                             }
                         ]
                     }
-                }
+                ]
             }
-        ]
-    }
-}
+        }
