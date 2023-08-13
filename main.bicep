@@ -91,7 +91,6 @@ module shared './shared/shared.bicep' = {
   name: 'sharedresources'
   scope: resourceGroup(sharedRG.name)
   params: {
-    environment: environment
     location: location
     resourceGroupName: sharedRG.name
     resourceSuffix: resourceSuffix

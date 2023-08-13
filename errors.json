@@ -1,0 +1,32 @@
+{
+    "status": "Failed",
+    "error": {
+        "code": "DeploymentFailed",
+        "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-deployment-operations for usage details.",
+        "details": [
+            {
+                "code": "Conflict",
+                "message": {
+                    "status": "Failed",
+                    "error": {
+                        "code": "ResourceDeploymentFailure",
+                        "message": "The resource write operation failed to complete successfully, because it reached terminal provisioning state 'Failed'.",
+                        "details": [
+                            {
+                                "code": "DeploymentFailed",
+                                "target": "/subscriptions/56815821-7deb-4dce-8c2a-374756037a1e/resourceGroups/rg-shared-mrapimGW-dev-westus2-001/providers/Microsoft.Resources/deployments/sharedresources",
+                                "message": "At least one resource deployment operation failed. Please list deployment operations for details. Please see https: //aka.ms/arm-deployment-operations for usage details.",
+                                "details": [
+                                    {
+                                        "code": "ConflictError",
+                                        "message": "A vault with the same name already exists in deleted state. You need to either recover or purge existing key vault. Follow this link https://go.microsoft.com/fwlink/?linkid=2149745 for more information on soft delete."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
