@@ -12,4 +12,4 @@ az group delete --name $sharedResourceGroupName --yes
 az group delete --name $apimResourceGroupName --yes
 
 
-az keyvault purge --name $resourceSuffix --location $location
+az keyvault purge --name "kv-$($resourceSuffix)" --location $location
