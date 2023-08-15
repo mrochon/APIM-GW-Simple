@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workloadName" :{ 
-            "value": "mrapimGW"
+            "value": "mrApimGS"
         },
         "environment" :{ 
             "value": "dev"
